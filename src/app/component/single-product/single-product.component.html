@@ -1,1 +1,16 @@
-<p>single-product works!</p>
+<div class="box  mt-3 mb-3">
+    <div class="card" style="width: 18rem;">
+        <img src="{{item.image}}"class="card-img-top">
+        <div class="card-body">
+        <h5 class="card-title">{{item.title}}</h5>
+        <p class="card-text">{{item.description}}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item text-center">
+                <strong>{{item.price}} /=</strong>
+            </li>
+            <button class="btn btn-primary">Add To Cart</button>
+        </ul>
+    </div>
+</div>
+

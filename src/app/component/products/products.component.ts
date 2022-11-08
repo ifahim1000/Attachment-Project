@@ -8,7 +8,7 @@ import { ApiService } from 'src/app/service/api.service';
 })
 export class ProductsComponent implements OnInit {
 
-  public productList : any ;
+  productList : any ;
   constructor(private api: ApiService) { 
     this.api.getproduct()
     .subscribe( res=>{

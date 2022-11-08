@@ -1,0 +1,24 @@
+
+.box{
+   
+    border: 3px solid burlywood;
+    align-items: center;
+    text-align: justify;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.8s;
+}
+.box:hover{
+    box-shadow: 0 0 20px tomato;
+}
+img {
+    height:200px ;
+}
+.card-body {
+    height: 260px;
+}
+.card-text{
+    text-overflow:ellipsis;
+    overflow: hidden; 
+    height: 150px;
+}
