@@ -8,8 +8,8 @@ import { CartComponent } from './component/cart/cart.component';
 import { ProductsComponent } from './component/products/products.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SingleProductComponent } from './component/single-product/single-product.component';
-import { DashboardComponent } from './component/dashboard/dashboard.component'
-
+import { DashboardComponent } from './component/dashboard/dashboard.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +22,8 @@ import { DashboardComponent } from './component/dashboard/dashboard.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
