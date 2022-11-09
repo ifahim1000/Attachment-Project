@@ -7,7 +7,8 @@ import { HeaderComponent } from './component/header/header.component';
 import { CartComponent } from './component/cart/cart.component';
 import { ProductsComponent } from './component/products/products.component';
 import { HttpClientModule } from '@angular/common/http';
-import { SingleProductComponent } from './component/single-product/single-product.component'
+import { SingleProductComponent } from './component/single-product/single-product.component';
+import { DashboardComponent } from './component/dashboard/dashboard.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SingleProductComponent } from './component/single-product/single-produc
     HeaderComponent,
     CartComponent,
     ProductsComponent,
-    SingleProductComponent
+    SingleProductComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
