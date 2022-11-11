@@ -1,15 +1,15 @@
- <div class="navbar navbar-dark bg-secondary bg-gradient shadow-sm">
+ <div class="navbar navbar-dark  bg-gradient shadow-lg">
     <i style="font-size: 40px; padding-left: 10px;" class="fas fa-wind"></i>  
     <nav class="navbar-item">
         <ul>
-            <li><a>Dashboard</a></li>
-            <li><a>Product</a></li>
-            <li><a>My cart</a></li>
+            <li><button routerLink="dashboard" class="btn btn-secondary">Dashboard</button> </li>
+            <li><button routerLink="products" class="btn btn-secondary">Product</button></li>
+           <li> <button routerLink="cart" class="btn btn-secondary">My cart</button> </li>
         </ul>
     </nav> 
-    <button class="btn btn-secondary">
+    <button routerLink="cart" class="btn btn-secondary">
         <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
-        <div style="font-size: 10px;" class="badge bg-danger">3</div>
+        <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
     </button>    
 </div>
    
